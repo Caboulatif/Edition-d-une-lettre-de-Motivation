@@ -1,0 +1,83 @@
+.container-fluid{
+    margin: 0px auto;
+    text-align: center;
+}
+
+html body div.bordure div.container div.row, html body div.bordure div.container{
+  width: 100%;
+}
+
+html body div.bordure div.container div.row div.col{
+  text-align: center;
+  margin: 2%;
+}
+.titre{
+  border-bottom: 1px solid #cfa960;  
+  margin-bottom: 2px;
+  font-size: 1.2em;
+}
+
+html body div.container div.row div.col-sm p{
+width: 80%;
+margin: 2px;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%
+}
+html body div.bordure div.container div.row{
+  margin-top: 23px;
+  background: #f9f9f9;
+}
+/*
+.container{ 
+  border: 1px solid #000;
+  
+}*/
+
+form {
+    margin-top:20px;
+  }
+
+div + div {
+  margin-top: 1em;
+}
+form input,form textarea {
+  font: 0.9em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  resize:none;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+form textarea {
+  vertical-align: top;
+  height: 5em;
+}
+form{
+  text-align: center;
+}
+form button{
+  background: #1abc9c;
+  width: 100px;
+  font-weight: bold;
+  border: none;
+}
+
+
+html body div.container-fluid div.formdecontact{
+  width:500px;
+  margin: 250px auto;
+  background: #f9f9f9;
+  padding-bottom: 2px;    
+  padding-bottom: 2px;
+  
+
+}
+
+
